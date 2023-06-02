@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['adik', 'baik', 'bau', 'berapa', 'buruk', 'cantik', 'ganteng', 'ibu', 'kamu', 'kapan', 'mendengar', 'ngantuk', 'sedih', 'telpon', 'tidur', 'tolong']
+
+roboflow:
+  workspace: project-bdoqp
+  project: project_capstone
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-bdoqp/project_capstone/dataset/2
